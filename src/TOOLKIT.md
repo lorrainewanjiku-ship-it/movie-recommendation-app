@@ -109,7 +109,7 @@ The app has two main features:
 **What I learned:** Svelte files are organized into script, HTML template, and style sections. I can easily modify the HTML section to change what appears on the page.
 
 **Evaluation:** Very helpful - gave me a clear understanding of Svelte's structure.
-
+**Note:** The ai.moringaschool.com platform was restricted to organization members only and I could not access it. Instead, I used Claude AI (claude.ai) as my AI assistant for this project, which provided equivalent learning support through conversational prompts.
 ---
 
 ### Prompt 2: Adding Interactivity
@@ -477,7 +477,8 @@ Given more time, I would like to add:
 ### Overall Experience
 
 This project gave me confidence that I can learn new technologies independently with the right guidance. While web development is still new to me, completing this capstone showed me that breaking down complex tasks into smaller steps makes learning manageable and even enjoyable. The combination of hands-on building and AI-assisted learning was an effective approach for someone with no prior coding experience.
-
+### Peer Testing
+Due to time constraints, formal peer testing was not conducted. However, the app was tested locally by running it multiple times and verifying both features (random recommendations and similar movie finder) worked correctly.
 ---
 
 **Project completed by:** Lorraine Wanjiku
