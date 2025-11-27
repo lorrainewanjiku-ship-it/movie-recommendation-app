@@ -484,6 +484,4 @@ Due to time constraints, formal peer testing was not conducted. However, the app
 **Project completed by:** Lorraine Wanjiku
 **Date:** November 27, 2024
 **Technology:** Svelte with Vite
-<<<<<<< HEAD
 **GitHub Repository:** https://github.com/lorrainewanjiku-ship-it/movie-recommendation-app
-=======
