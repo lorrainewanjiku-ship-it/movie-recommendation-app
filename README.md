@@ -1,48 +1,115 @@
+# 🎬 Movie Recommendation Helper
 
-# Svelte + Vite
+A simple, interactive web application built with Svelte that helps users discover movies to watch.
 
-This template should help get you started developing with Svelte in Vite.
+## Features
 
-## Recommended IDE Setup
+- **Random Recommendations:** Get a surprise movie suggestion with one click
+- **Similar Movie Finder:** Enter a movie you've watched and get recommendations for similar films based on genre and mood
+- **Clean, Modern UI:** Responsive design with smooth animations
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## Tech Stack
 
-## Need an official Svelte framework?
+- **Svelte** - Frontend framework
+- **Vite** - Build tool and development server
+- **JavaScript** - Programming language
+- **CSS** - Styling
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+## Prerequisites
 
-## Technical considerations
+Before running this project, make sure you have:
 
-**Why use this over SvelteKit?**
+- **Node.js** (v20 or higher) - [Download here](https://nodejs.org/)
+- **npm** (comes with Node.js)
+- A modern web browser (Chrome, Firefox, Edge, etc.)
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+## Installation & Setup
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
-
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `checkJs` in the JS template?**
-
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+### 1. Clone the repository
+```bash
+git clone https://github.com/YOUR-USERNAME/movie-recommendation-app.git
 ```
 
-# movie-recommendation-app
-Svelte Movie Recommendation App - Capstone Project
->>>>>>> c054548cf08b2bbfa3879be0038c6c08edb0f1c6
+Replace `YOUR-USERNAME` with your actual GitHub username.
+
+### 2. Navigate to the project directory
+```bash
+cd movie-recommendation-app
+```
+
+### 3. Install dependencies
+```bash
+npm install
+```
+
+### 4. Start the development server
+```bash
+npm run dev
+```
+
+### 5. Open in browser
+
+The app will be running at: **http://localhost:5173/**
+
+Open this URL in your web browser to use the app.
+
+## How to Use
+
+### Random Recommendation
+1. Click the **"Surprise Me!"** button
+2. A random movie recommendation will appear
+
+### Find Similar Movies
+1. Type a movie title in the input field (e.g., "Inception", "Parasite")
+2. Click **"Find Similar"** or press Enter
+3. The app will suggest a similar movie based on genre and mood
+
+## Project Structure
+```
+movie-recommendation-app/
+├── src/
+│   ├── App.svelte          # Main application component
+│   ├── main.js             # Application entry point
+│   └── app.css             # Global styles
+├── public/                 # Static assets
+├── package.json            # Project dependencies
+├── vite.config.js          # Vite configuration
+├── TOOLKIT.md              # Learning documentation
+└── README.md               # This file
+```
+
+## Building for Production
+
+To create a production-ready build:
+```bash
+npm run build
+```
+
+The built files will be in the `dist/` folder.
+
+To preview the production build locally:
+```bash
+npm run preview
+```
+
+## Learning Resources
+
+For more information about the technologies used:
+
+- [Svelte Documentation](https://svelte.dev/docs)
+- [Vite Documentation](https://vitejs.dev/)
+- [JavaScript MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Capstone Project
+
+This project was created as part of a capstone assignment to learn a new technology using AI-assisted learning. For detailed documentation about the learning process, see [TOOLKIT.md](TOOLKIT.md).
+
+## Author
+
+**Lorraine Heho**
+
+Created: November 27, 2024
+
+## License
+
+This project is open source and available for educational purposes.
