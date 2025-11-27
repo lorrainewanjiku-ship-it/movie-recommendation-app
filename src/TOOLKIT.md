@@ -129,7 +129,7 @@ The app has two main features:
 - `Math.random()` and `Math.floor()` help generate random numbers
 
 **Evaluation:** Extremely helpful - introduced me to Svelte's reactivity and event handling.
-
+**Note:** The ai.moringaschool.com platform was restricted to organization members only and I could not access it. Instead, I used Claude AI (claude.ai) as my AI assistant for this project, which provided equivalent learning support through conversational prompts.
 ---
 
 ### Prompt 3: Adding User Input Feature
@@ -484,4 +484,6 @@ Due to time constraints, formal peer testing was not conducted. However, the app
 **Project completed by:** Lorraine Wanjiku
 **Date:** November 27, 2024
 **Technology:** Svelte with Vite
+<<<<<<< HEAD
 **GitHub Repository:** https://github.com/lorrainewanjiku-ship-it/movie-recommendation-app
+=======
